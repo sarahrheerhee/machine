@@ -77,7 +77,7 @@ function draw() {
   image(bgblack, 800, 60);
   } else if (label == "white") {
 
-  image(bgwhite, 1200, 0) ;
+  image(bgwhite, 0, 0) ;
 
   }
 
