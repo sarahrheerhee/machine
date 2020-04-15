@@ -1,7 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
-
+  justify-content: center;
+  align-items: center;
 }
 canvas {
   display: block;
@@ -12,3 +13,10 @@ canvas {
 
 }
 
+.text{
+	color: white;
+	font-size: 25pt;
+	position: fixed;
+	margin-left: 40%;
+	margin-top: 20%;
+}
