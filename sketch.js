@@ -35,7 +35,7 @@ function setup() {
   bgpurple = loadImage('https://www.freshplaza.es/images/2017/boniatos.jpg');
   bgblack = loadImage('https://i1.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2016/02/ThinkstockPhotos-478874358.jpg?fit=685%2C514&ssl=1');
   
-  bgwhite = loadImage('https://upload.wikimedia.org/wikipedia/commons/1/1b/White_chicken_egg_square.jpg');
+  bgwhite = loadImage('egg-02.png');
     bgwhite2 = loadImage('https://www.wallflowerproduce.com.au/wp-content/uploads/2019/10/cauliflower.jpg');
 }   
 
