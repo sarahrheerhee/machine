@@ -26,8 +26,7 @@ function setup() {
   classifyVideo();
   
  
-   bgred = loadImage('https://media.istockphoto.com/photos/tomato-isolated-on-white-background-picture-id466175630?k=6&m=466175630&s=612x612&w=0&h=fu_mQBjGJZIliOWwCR0Vf2myRvKWyQDsymxEIi8tZ38=');
-  
+   bgred = loadImage('tomato.png');
   bgorange = loadImage('https://www.alimentarium.org/en/system/files/thumbnails/image/AL012-02%20carotte.jpg');
 
   bgyellow = loadImage('https://kathleendichiara.com/wp-content/uploads/2017/12/fresh-ripe-lemons-isolated-on-white-background_BPXbN31d3zx-e1512149333632.jpg');
@@ -61,7 +60,7 @@ function draw() {
   // Pick an emoji, the "default" is train
   let emoji = "";
   if (label == "red") {
-      image(bgred, 1000, 600);
+      image(bgred, 0, 0);
   } else if (label == "orange") {
   image(bgorange, 600, 600);
   } else if (label == "yellow") {
