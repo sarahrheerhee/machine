@@ -72,14 +72,7 @@ function draw() {
     
   } else if (label == "purple") {
   image(bgpurple, 1100, 200);
-  } else if (label == "black") {
-  image(bgblack, 800, 60);
-  } else if (label == "white") {
-
-  image(bgwhite, 1200, 0) ;
-
-  }
-
+  } 
   
   // Draw the emoji
   textSize(256);
