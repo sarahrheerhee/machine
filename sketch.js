@@ -60,18 +60,23 @@ function draw() {
   let emoji = "";
   if (label == "red") {
       image(bgred, 1000, 600);
+    img.resize(500, 100);
   } else if (label == "orange") {
   image(bgorange, 600, 600);
+    img.resize(500, 100);
   } else if (label == "yellow") {
   image(bgyellow, 0, 500);
+    img.resize(500, 100);
   } else if (label == "green") {
   image(bggreen, 30, 400);
+    img.resize(500, 100);
   } else if (label == "blue") {
   image(bgblue, 800, 300);
-
+img.resize(500, 100);
     
   } else if (label == "purple") {
   image(bgpurple, 1100, 200);
+    img.resize(500, 100);
   } 
   
   // Draw the emoji
