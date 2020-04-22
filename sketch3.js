@@ -26,15 +26,9 @@ function setup() {
   classifyVideo();
   
  
-   bgred = loadImage('colors-01.svg');
-  
-  bgorange = loadImage('colors-07.svg');
 
-  bgyellow = loadImage('colors-02.svg');
-  bggreen = loadImage('colors-03.svg');
-  bgblue = loadImage('colors-04.svg');
   bgpurple = loadImage('colors-05.svg');
-  bgblack = loadImage('colors-06.svg');
+  wrong = loadImage('wrong-08.svg');
   
   }   
 
