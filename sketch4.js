@@ -60,13 +60,13 @@ function draw() {
   let emoji = "";
   if (label == "orange") {
       image(bgorange, 1000, 600);
-  } else if (label == "orange") {
-  image(bgorange, 600, 600);
+  } else if (label == "green") {
+  image(wrong, 600, 600);
   } else if (label == "purple") {
-  image(bgyellow, 0, 500);
+  image(wrong, 0, 500);
   } 
 
-  
+
   // Draw the emoji
   textSize(256);
   text(emoji, width / 2, height / 2);

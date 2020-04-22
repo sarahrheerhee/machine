@@ -35,6 +35,7 @@ function setup() {
   bgblue = loadImage('colors-04.svg');
   bgpurple = loadImage('colors-05.svg');
   bgblack = loadImage('colors-06.svg');
+  wrong = loadImage('wrong-08.svg');
   
   }   
 
@@ -61,11 +62,10 @@ function draw() {
   if (label == "green") {
       image(bggreen, 1000, 600);
   } else if (label == "orange") {
-  image(bgorange, 600, 600);
-  } else if (label == "purple") {
-  image(bgyellow, 0, 500);
+  image(wrong, 600, 600);
+  } else if (label == "yellow") {
+  image(wrong, 0, 500);
   } 
-
   
   // Draw the emoji
   textSize(256);
