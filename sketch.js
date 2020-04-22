@@ -26,18 +26,17 @@ function setup() {
   classifyVideo();
   
  
-   bgred = loadImage('tomato.png');
-  bgorange = loadImage('https://www.alimentarium.org/en/system/files/thumbnails/image/AL012-02%20carotte.jpg');
-
-  bgyellow = loadImage('https://kathleendichiara.com/wp-content/uploads/2017/12/fresh-ripe-lemons-isolated-on-white-background_BPXbN31d3zx-e1512149333632.jpg');
-  bggreen = loadImage('https://cdn.shopify.com/s/files/1/1143/3886/products/pepper-jalapeno_7dc15c16-6b00-45f9-9cad-b7dfdecb3c24_1024x1024.jpg?v=1522431847');
-  bgblue = loadImage('https://thumbs.dreamstime.com/b/single-blueberry-isolated-berry-white-background-103533622.jpg');
-  bgpurple = loadImage('https://www.freshplaza.es/images/2017/boniatos.jpg');
-  bgblack = loadImage('https://i1.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2016/02/ThinkstockPhotos-478874358.jpg?fit=685%2C514&ssl=1');
+   bgred = loadImage('colors-01.svg');
   
-  bgwhite = loadImage('egg-02.png');
-    bgwhite2 = loadImage('https://www.wallflowerproduce.com.au/wp-content/uploads/2019/10/cauliflower.jpg');
-}   
+  bgorange = loadImage('colors-07.svg');
+
+  bgyellow = loadImage('colors-02.svg');
+  bggreen = loadImage('colors-03.svg');
+  bgblue = loadImage('colors-04.svg');
+  bgpurple = loadImage('colors-05.svg');
+  bgblack = loadImage('colors-06.svg');
+  
+  }   
 
 
 // STEP 2 classify the videeo!
@@ -60,7 +59,7 @@ function draw() {
   // Pick an emoji, the "default" is train
   let emoji = "";
   if (label == "red") {
-      image(bgred, 0, 0);
+      image(bgred, 1000, 600);
   } else if (label == "orange") {
   image(bgorange, 600, 600);
   } else if (label == "yellow") {
@@ -77,7 +76,7 @@ function draw() {
   image(bgblack, 800, 60);
   } else if (label == "white") {
 
-  image(bgwhite, 0, 0) ;
+  image(bgwhite, 1200, 0) ;
 
   }
 
