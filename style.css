@@ -20,3 +20,13 @@ canvas {
 	margin-left: 40%;
 	margin-top: 20%;
 }
+.next{
+	position: fixed;
+	bottom: 5%;
+	right: 3%;
+	color: white
+	font-size:70pt;
+	font-style: sans-serif;
+	color: white;
+
+}
